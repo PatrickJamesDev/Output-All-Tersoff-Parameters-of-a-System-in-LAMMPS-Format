@@ -6,3 +6,9 @@ Generating mixed Tersoff potentials automatically with a Python3 script.
 # USAGE
 python: PRINT_MIXED_TERSOFF.py --input example1
 Supply your own individual Tersoff potentials in your input file according to the example inputs, then the script will provide the mixed potential. I.e. supplying potentials for Si and Ge would output the Si-Ge potential.  
+
+# DEPENDENCIES
+
+Python3  
+numpy  
+argparse  
